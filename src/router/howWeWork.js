@@ -3,6 +3,7 @@ const roadmap = () => import("@/views/HowWeWork/roadmap.vue");
 const subProjects = () => import("@/views/HowWeWork/subProjects.vue");
 const sp1 = () => import("@/views/HowWeWork/sp1.vue");
 const spDetails = () => import("@/views/HowWeWork/details.vue");
+const governanceStructure = () => import("@/views/HowWeWork/governanceStructure.vue");
 const HowWeWork = [
   {
     path: "/deliverables",
@@ -46,6 +47,15 @@ const HowWeWork = [
     component: spDetails,
     meta: {
       title: "spDetails",
+      keepAlive: true,
+    },
+  },
+  {
+    path: "/governanceStructure",
+    name: "governanceStructure",
+    component: governanceStructure,
+    meta: {
+      title: "governanceStructure",
       keepAlive: true,
     },
   },

@@ -27,6 +27,7 @@
         <el-menu-item index="3-1">ROADMAP</el-menu-item>
         <el-menu-item index="3-2">SUB PROJECTS</el-menu-item>
         <el-menu-item index="3-3">DELIVERABLES</el-menu-item>
+        <el-menu-item index="3-4">GOVERANCE STRUCTURE</el-menu-item>
       </el-sub-menu>
       <el-sub-menu index="4" class="title-name">
         <template #title>DISSEMINATION</template>
@@ -103,7 +104,11 @@ const handleSelect = (key, keyPath) => {
     router.push({
       path: "/deliverables",
     });
-  } else if (key == "4-1") {
+  } else if (key == "3-4") {
+    router.push({
+      path: "/governanceStructure",
+    });
+  }  else if (key == "4-1") {
     router.push({
       path: "/publications",
     });

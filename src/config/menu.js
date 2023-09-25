@@ -36,6 +36,9 @@ const meanList = [
       {
         title: "DELIVERABLES",
       },
+      {
+        title: "GOVERANCE STRUCTURE",
+      },
     ],
   },
   {
