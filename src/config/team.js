@@ -29,7 +29,7 @@ const teamList1 = [
   {
     img: Richard_Walker,
     userInfo: "Richard WALKER (CityU)",
-    description: "Professor of Behavioral and Policy Sciences Chair Professor of Public and International Affairs",
+    description: "Chair Professor, Chan Hon Pun Professor of Behavioural and Policy Sciences",
   },
   {
     img: Tse_Chun_LIn,
