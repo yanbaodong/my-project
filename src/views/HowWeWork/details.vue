@@ -19,13 +19,13 @@
           class="img-show img-21"
         />
       </p>
-      <p class="title-1" v-if="id == 2">
+      <!-- <p class="title-1" v-if="id == 2">
         <img
           src="@/assets/subProjects/sp-details-22.png"
           alt=""
           class="img-show img-22"
         />
-      </p>
+      </p> -->
       <p class="title-1" v-if="id == 3">
         <img
           src="@/assets/subProjects/sp-details-03.png"

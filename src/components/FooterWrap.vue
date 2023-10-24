@@ -15,7 +15,7 @@
         </p>
       </div>
       <div class="footer-box-2">
-        <p class="title-wrap-footer">QUICk Links</p>
+        <p class="title-wrap-footer">Quick Links</p>
         <p class="link-1" @click="goPage('1')">TEAM</p>
         <p class="link-1" @click="goPage('2')">PARTNERS</p>
         <p class="link-1" @click="goPage('3')">RELATED PROJECTS</p>
@@ -60,6 +60,7 @@ const goPage = (params) => {
   min-width: 1200px;
   padding-top: 50px;
   text-align: left;
+  padding-bottom: 30px;
   .wrap {
     width: 1200px;
     margin: 0 auto;

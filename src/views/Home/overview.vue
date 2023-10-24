@@ -74,9 +74,9 @@ import { ElCarousel, ElCarouselItem } from "element-plus";
 import "element-plus/es/components/carousel/style/css";
 import "element-plus/es/components/carousel-item/style/css";
 import {ref } from "vue";
-import pic01 from "@/assets/banners-001.jpg";
-import pic02 from "@/assets/banners-002.jpg";
-import pic03 from "@/assets/banners-003.jpg";
+import pic01 from "@/assets/banners-001.jpeg";
+import pic02 from "@/assets/banners-002.jpeg";
+import pic03 from "@/assets/banners-003.jpeg";
 let imgList = ref([
   {
     imgSrc: pic01,

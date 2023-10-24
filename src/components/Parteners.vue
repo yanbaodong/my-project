@@ -52,6 +52,7 @@ const list = ref([
     imgSrc: partner3,
     className: "img-3",
   },
+  // HKU Data Science
   {
     name: "https://datascience.hku.hk/",
     imgSrc: partner18,
