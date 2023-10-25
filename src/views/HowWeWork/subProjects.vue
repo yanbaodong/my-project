@@ -52,7 +52,7 @@ import img6 from "@/assets/subProjects/sub-pro-06.png";
 const list1 = ref([
   {
     imgSrc: img1,
-    title: "Mapping the Social Pulse During and After the Pandemic (SP #1)",
+    title: "SP1: Mapping the Social Pulse and Gaps",
     content:
       "This project identifies dilemma-preference gaps among different stakeholders via longitudinal analysis of policies and public opinion represented in news, social media,search and mobility data. ",
     link: "",
@@ -60,7 +60,7 @@ const list1 = ref([
   {
     imgSrc: img2,
     title:
-      "Tracking Individuals’ Resilience Building via a Trust-Based Mechanism (SP#2)",
+      "SP2: Monitoring Resilience Building and Gaps in Policy Compliance through the Lens of Trust",
     content:
       "This project provides population-representative evidence on policy compliance, individual resilience. It adopts a process perspective and aims to unfold the stages of an underlying resilience- building mechanism. ",
     link: "",
@@ -68,7 +68,7 @@ const list1 = ref([
   {
     imgSrc: img3,
     title:
-      "Social Distrust, Expatriate Emigration, and Economic Resilience  (SP#3)",
+      "SP3: Understanding Social Distrust, Emigration, and Economic Resilience",
     content:
       "This project complements other sub-projects by focusing on hard-to-survey demographics, notably skilled expatriates. It explicitly measures expatriate emigration with quantitative rental transaction data.",
     link: "",
@@ -77,7 +77,7 @@ const list1 = ref([
 const list2 = ref([
   {
     imgSrc: img4,
-    title: "A Trend Survey of Digital Health and Social Disparities (SP#4)",
+    title: "SP4: Uncovering Informational Trust and Digital Health Disparities",
     content:
       "Parallel to and complement with SP2 and SP3, this project addresses the issue of health and social disparity, and serves as another mechanism in “mechanism analysis phrase” the Gap Management Model.",
     link: "",
@@ -85,14 +85,14 @@ const list2 = ref([
   {
     imgSrc: img5,
     title:
-      "Developing Guidelines for Balanced Communication and Decision Making (SP#5)",
+      "SP5: Rebuilding Trust through Qualitative Insights and Dialogues",
     content:
       "With a qualitative approach to contextualize and complement other SP’s findings, this project seeks in-depth insights from individuals of various backgrounds and generate solutions for bridging the identified gaps.",
     link: "",
   },
   {
     imgSrc: img6,
-    title: "Experimental Investigations on Communication Strategies (SP#6)",
+    title: "SP6: Developing and Testing Trust-Enhancing Communication Strategies",
     content:
       "This project offers solutions from a communication perspective for building a more resilient society. It will inform the design for the other sub-projects. It will also produce communication strategies and protocos for practical uses.",
     link: "",

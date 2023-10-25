@@ -14,14 +14,12 @@
       <p class="title">
         Hong Kong’s road to pandemic recovery needs to be envisioned with a
         long-term goal of building a
-        <span class="to-resilient" @click="toResilient('resilience')"
-          >resilient</span
-        >
+        <span class="to-resilient" @click="toResilient('resilience')">resilient</span>
         society with the capacity to bridge existing and emerging gaps so as to
         absorb future shocks.
       </p>
       <p class="peitu">
-        <img src="@/assets/pageImg/page-img-01.jpeg" alt="" class="img-page" />
+        <img src="@/assets/pageImg/page-img-01.png" alt="" class="img-page" />
       </p>
       <p class="text-1 margin0">
         Our ultimate goal is to facilitate Hong Kong’s recovery from the
@@ -29,88 +27,41 @@
         economic growth and social equality.
       </p>
       <p class="title-weight">Goals:</p>
-      <ul class="content-list">
-        <li class="list-1">
-          <p class="list-text-1">
-            Develop and theorize a
-            <span class="weight"> BRIDGE framework</span>, which includes
-          </p>
-          <p class="list-text-1">
-            1)an typology of Dilemma-Preference Gaps; <br />
-            2)a Three-Route Resilience Building Model:
-            <span class="to-resilient" @click="toResilient('trust')">Trust</span
-            >,
-            <span class="to-resilient" @click="toResilient('communication')"
-              >Communication</span
-            >,
-            <span
-              class="to-resilient"
-              @click="toResilient('informationAndTechnology')"
-              >Information & Technology
-            </span>
-            <br />
-            3)a Gap Management Model: Identification, Mechanism Analysis, and
-            Solution.<br />
-          </p>
-        </li>
-        <li class="list-1">
-          <p class="list-text-1">
-            Identify and monitor dilemma-preference gaps between the public and
-            policymakers to aid policymaking and compliance. Some primary
-            trade-offs observed in different Hong Kong populations include:
-          </p>
-          <div class="list-text-1 list-text-2">
-            <div class="left">
-              <p class="text-box">
-                <span class="blank"></span>Risk avoidance vs. Tolerance <br />
-                <span class="blank"></span>Collective good vs. Individual
-                Rights<br />
-                <span class="blank"></span>Public health vs. Economy
-                Stability)<br />
-              </p>
-            </div>
+      <p class="list-text-1">
+        <span class="left-num">[G1]</span>
+        <span class="right-text">To develop and theorize a <i class="weight">framework</i>  (Figure 1) for building resilience that connects the
+          public, stakeholders, and policymakers.</span>
+      </p>
+      <p class="list-text-1">
+        <span class="left-num">[G2]</span>
+        <span class="right-text">To identify and monitor <i class="weight">policy-preference gaps</i>  between the public and
+          policymakers.</span>
+      </p>
+      <p class="list-text-1">
+        <span class="left-num">[G3]</span>
+        <span class="right-text">To describe the <i class="weight">trustdemic</i> in Hong Kong by identifying gaps between government policies
+          and public opinions and analyzing its underlying <i class="weight">mechanisms</i> for different types of trust.</span>
+      </p>
+      <p class="list-text-1">
+        <span class="left-num">[G4]</span>
+        <span class="right-text">To understand distrust among peculiar sections of the population, including distrust of
+          the <i class="weight">well-off populations</i> in Hong Kong and barriers to information trust for <i class="weight">socially disadvantaged groups</i>.
+        </span>
+      </p>
+      <p class="list-text-1">
+        <span class="left-num">[G5]</span>
+        <span class="right-text">To build practical guidelines, policy recommendations, and reference tools to increase
+          trust.</span>
+      </p>
+      <p class="list-text-1">
+        <span class="left-num">[G6]</span>
+        <span class="right-text">To create a <i class="weight">BRIDGE platform</i> that serves as a central hub connecting multiple parties,
+          facilitating two-way communication and collaboration within the BRIDGE alliance in the civic sphere.</span>
+      </p>
 
-            <div class="right">
-              <img
-                class="right-img"
-                src="@/assets/pageImg/page-img-01-1.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </li>
-        <li class="list-1">
-          <p class="list-text-1">
-            Formulate three resilience-building pathways by evaluating how
-            information technology empowerment, institutional trust, and
-            communication strategies work interdependently and in combination to
-            build Hong Kong’s resilience.
-          </p>
-        </li>
-        <li class="list-1">
-          <p class="list-text-1">
-            Construct an Individual Resilience Index to observe the change in
-            Hong Kong’s resilience capacity. We define resilience capacity as an
-            individual’s ability to endure the impacts of external shocks.
-          </p>
-        </li>
-        <li class="list-1">
-          <p class="list-text-1">
-            Build practical guidelines, policy recommendations, and reference
-            tools to aid efficient and effective policymaking processes in risk
-            and crisis
-          </p>
-        </li>
 
-        <li class="list-1">
-          <p class="list-text-1">
-            Create a free and open platform to synergize all efforts and
-            synthesize the theoretical reflections, empirical findings,
-            practical guidelines, and media coverage so various stakeholders can
-            access the information they need.
-          </p>
-        </li>
-      </ul>
+
+
     </main>
   </div>
 </template>
@@ -119,20 +70,20 @@
 import { ref } from "vue";
 let topic = ref("Roadmap");
 
-import { useRoute, useRouter } from "vue-router";
-const router = useRouter();
-const route = useRoute();
-const toResilient = (params) => {
-  const pathMap = {
-    resilience: "/resilience",
-    trust: "/trust",
-    communication: "/communication",
-    informationAndTechnology: "/informationAndTechnology",
-  };
-  router.push({
-    path: pathMap[params],
-  });
-};
+// import { useRoute, useRouter } from "vue-router";
+// const router = useRouter();
+// const route = useRoute();
+// const toResilient = (params) => {
+//   const pathMap = {
+//     resilience: "/resilience",
+//     trust: "/trust",
+//     communication: "/communication",
+//     informationAndTechnology: "/informationAndTechnology",
+//   };
+//   router.push({
+//     path: pathMap[params],
+//   });
+// };
 </script>
 
 <style lang="scss">
@@ -141,11 +92,13 @@ const toResilient = (params) => {
   text-align: left;
   line-height: 1.5;
   font-size: 20px;
+
   .header-box {
     height: 144px;
     width: 100%;
     background: url(@/assets/page-bc.jpg) no-repeat top center;
     background-size: cover;
+
     .title-page {
       width: 1200px;
       margin: 0 auto;
@@ -157,70 +110,62 @@ const toResilient = (params) => {
       font-weight: 600;
     }
   }
+
   .main-box {
     width: 1200px;
     margin: 0 auto;
     padding: 90px 30px;
+
     .to-resilient {
       text-decoration: underline;
       cursor: pointer;
     }
+
     .title {
       font-size: 20px;
       font-weight: 600;
     }
+
     .peitu {
       text-align: center;
+
       .img-page {
         width: 100%;
       }
     }
+
     .text-1 {
       margin-top: 30px;
+
       &.margin0 {
         margin-top: 0;
       }
     }
+
     .title-weight {
-      margin-top: 30px;
+      margin: 30px 0 10px;
       font-weight: 600;
     }
-    .blank {
-      display: inline-block;
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: #222;
-      margin-right: 10px;
-      // margin-left: 40px;
-    }
-    .content-list {
-      margin-top: 10px;
-      list-style: disc;
-      padding-left: 20px;
+
       .weight {
         font-weight: 600;
       }
-      .list-1 {
+
         .list-text-1 {
-          margin-bottom: 20px;
-        }
-        .list-text-2 {
+          margin-bottom: 15px;
           display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 0 40px;
-          .left {
+          .left-num{
+            width: 45px;
+            font-weight: 600;
+          }
+          .right-text{
             flex: 1;
           }
-          .right {
-            .right-img {
-              width: 300px;
-            }
-          }
+          
         }
-      }
-    }
+
+       
+      
+    
   }
-}
-</style>
+}</style>
