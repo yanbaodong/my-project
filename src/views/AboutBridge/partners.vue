@@ -9,7 +9,7 @@
         In our mission to connect our beneficiaries and stakeholders with timely support for resilience, growth and equality, the BRIDGE team has established partnerships with the following organizations.
       </header>
       <p class="img-box">
-        <img class="img-bgd" src="@/assets/Partner/partner-01.png" alt="">
+        <img class="img-bgd" src="@/assets/Partner/partner-02.png" alt="">
       </p>
     </main>
   </div>
