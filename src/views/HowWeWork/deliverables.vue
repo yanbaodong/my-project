@@ -66,7 +66,7 @@
      
       </section>
       <section class="list-item" >
-        <p class="title-num">[D1]</p>
+        <p class="title-num">[D7]</p>
         <div class="text-box">
           <i class="weight">Trust-Enhancing Communication Framework: Strategies, Guidelines, and Messages</i> (SP6), which provides a collection of scientifically validated strategies and message templates.
         </div>
